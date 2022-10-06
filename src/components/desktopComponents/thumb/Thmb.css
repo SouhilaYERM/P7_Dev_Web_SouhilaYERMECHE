@@ -1,0 +1,36 @@
+.Kasa-thumb {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 55px;
+    top: 180px;
+}
+.kasa-thumbTitle {
+    position: absolute;
+    left: 5.88%;
+    right: 5.88%;
+    top: 78.82%;
+    bottom: 5.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* or 26px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+.kasa-thumbImg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FF6060;
+    border-radius: 10px;
+}
