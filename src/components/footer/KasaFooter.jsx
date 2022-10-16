@@ -1,10 +1,10 @@
 import React from 'react';
-import './KasaFooter'
-import logo from '../../logo.svg';
-export const KasaFooter = ({title})=>{
+import './KasaFooter.css';
+import {ReactComponent as Logo} from './.LOGO.svg';
+export const KasaFooter = ()=>{
     return (
     <footer className="kasa-footer">
-      <img src={logo} className="logo-footer" alt="logo" />
+      <Logo className=""/>
       <div className="element-footer">© 2020 Kasa.All rights reserved</div>
     </footer>);
 }

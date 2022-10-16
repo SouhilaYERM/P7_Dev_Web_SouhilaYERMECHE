@@ -1,0 +1,15 @@
+.kasa-thumb {
+    background: #FF6060;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    margin: 40px;
+    position: relative; 
+}
+.kasa-thumbTitle {
+    position: absolute;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    bottom: 0px;
+    left: 10px; 
+}

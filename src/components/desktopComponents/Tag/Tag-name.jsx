@@ -4,7 +4,7 @@ export const Tagname = ({title})=>{
     return (
     <div className="kasa-tag">
         <div className="tagback">
-            <span className="tagname"> </span>
+            <span className="tagname">Souhila YERMECHE </span>
         </div>
     </div>);
 }

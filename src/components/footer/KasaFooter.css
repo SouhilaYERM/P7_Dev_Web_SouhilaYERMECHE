@@ -1,33 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 .kasa-footer {
-    position: relative;
-    width: 1440px;
-    height: 209px;
-    
-    background: #000000;
+    background-color: black!important;
+    padding : 20px;
+    text-align: center;
 }
-.logo-footer {
-    position: absolute;
-    left: 45.76%;
-    right: 45.76%;
-    top: 31.58%;
-    bottom: 49.55%;
-}
-.element-footer {
-    position: absolute;
-    left: 32.15%;
-    right: 32.22%;
-    top: 64.11%;
-    bottom: 13.88%;
 
+.element-footer {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 142.6%;
+    font-size: 20px;
     /* or 34px */
 
-    display: flex;
-    align-items: flex-end;
     text-align: center;
 
     color: #FFFFFF;

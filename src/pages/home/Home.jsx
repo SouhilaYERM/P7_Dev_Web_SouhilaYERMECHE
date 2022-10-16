@@ -1,21 +1,14 @@
 import React from 'react';
-import logo from '../../logo.svg';
-export const Home = ({title})=>{
+import './Home.css'
+import {Thumb} from '../../components/desktopComponents/thumb/Thumb'
+import {Image_haut_de_page} from '../../components/desktopComponents/image/Image.jsx';
+export const Home = ()=>{
     return (
-    <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        {title}
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>);
+        <div className="home-content"> 
+            <Image_haut_de_page />
+            <Thumb 
+
+            />
+        </div>
+    );
 }

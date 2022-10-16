@@ -1,21 +1,29 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import { Tagname } from '../../components/desktopComponents/Tag/Tag-name';
+import {Dropdown} from '../../components/desktopComponents/dropdown/Dropdown'
 export const Fiche = ({title})=>{
     return (
     <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        {title}
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+    <Tagname />
+            <Dropdown
+                titre="Fiabilité" 
+                contenu={<p>Les annonces postées sur Kasa garantissent une fiabilité totale. 
+                Les photos sont conformes aux logements, et toutes les informations sont 
+                régulièrement vérifiées par nos équipes. </p>}
+                large={true}
+            />
+            <Dropdown 
+                titre="Description"
+                contenu= {<ul>
+                <li >Climatisation</li>
+                <li >Wi-Fi</li>
+                <li >Cuisine</li>
+                <li >Espace de travail</li>
+                <li >Fer à repasser</li>
+                <li >Sèche-cheveux</li>
+                <li >Cintres</li>
+            </ul>}
+                large= {false}
+            />
   </div>);
 }

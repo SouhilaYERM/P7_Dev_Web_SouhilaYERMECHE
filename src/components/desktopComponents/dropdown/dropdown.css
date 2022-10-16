@@ -1,56 +1,38 @@
 .kasa-dropdown {
-    position: absolute;
-    width: 582px;
-    height: 52px;
-    left: 675px;
-    top: 557px;
+    margin : 10px 10px 0px 40px;
+    padding : 0px 10px 5px 10px;
+    background-color: #FF6060;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 .dropdown-title {
-    position: absolute;
-    left: 3.44%;
-    right: 75.26%;
-    top: 25%;
-    bottom: 25%;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 142.6%;
-    /* identical to box height, or 26px */
-
     display: flex;
     align-items: center;
 
     color: #FFFFFF;
 }
+.Icon {
+    padding-top: 5px;
+}
 .dropdownfont {
-    position: absolute;
-    left: 91.25%;
-    right: -39.88%;
-    top: 24.33%;
-    bottom: -6.83%;
-
-    background: #FFFFFF;
-    transform: rotate(90deg);
+    color: #FFFFFF;
 }
 .openDrop {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 80.77%;
-    bottom: -459.62%;
-
     background: #F7F7F7;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    width: 400px;
+    margin: 0px 10px 0px 40px;
+    padding: 10px;
+    list-style-type: none;
 }
 .dropListElement {
-    position: absolute;
-    left: 3.44%;
-    right: 2.06%;
-    top: 157.69%;
-    bottom: -407.69%;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -58,5 +40,9 @@
     line-height: 142.6%;
     /* or 26px */
 
+    
+}
+.large {
+    width: 500px!important;
     color: #FF6060;
 }

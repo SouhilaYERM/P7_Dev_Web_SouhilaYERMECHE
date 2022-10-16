@@ -1,13 +1,14 @@
 import React from 'react';
-import './KasaHeader.css'
-import logo from '../../logo.svg';
+import './KasaHeader.css';
+import {ReactComponent as Logo} from './.LOGO.svg';
+//import logo from '../../';
 export const KasaHeader = ({title})=>{
     return (
     <header className="kasa-header">
-      <img src={logo} className="kasa-logo" alt="logo" />
+      <Logo className=""/>
       <nav className="nav">
-        <div className="element-Accueil">Accueil</div>
-        <div className="element-A_propos">A propos</div>
+        <div className="element">Accueil</div>
+        <div className="element">A propos</div>
       </nav>
     </header>);
 }

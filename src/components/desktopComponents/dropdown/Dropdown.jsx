@@ -1,17 +1,21 @@
 import React from 'react';
 import './Dropdown.css'
-export const Dropdown = ({title})=>{
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+export const Dropdown = ({titre, contenu, large})=>{
     return (
-    <div className="">
-        <div className="kasa-dropdown"><span className="dropdown-title"></span> fontawesome</div>
-        <ul className="openDrop">
-            <li className="dropListElement">Climatisation</li>
-            <li className="dropListElement">Wi-Fi</li>
-            <li className="dropListElement">Cuisine</li>
-            <li className="dropListElement">Espace de travail</li>
-            <li className="dropListElement">Fer à repasser</li>
-            <li className="dropListElement">Sèche-cheveux</li>
-            <li className="dropListElement">Cintres</li>
-        </ul>
-    </div>);
+        <div className="">
+            <div className={`kasa-dropdown ${large ? 'large' : null }`}>
+                <span className="dropdown-title">{titre}</span>
+                <span className="Icon">
+                    <FontAwesomeIcon icon={faAngleDown} className="dropdownfont"/>
+                </span>
+            </div>
+
+            <div className={`openDrop ${large ? 'large' : null }`}>
+                {contenu}
+            </div>
+        </div>  
+    );
 }
