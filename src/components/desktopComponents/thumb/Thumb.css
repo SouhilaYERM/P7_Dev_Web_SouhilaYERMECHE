@@ -3,8 +3,13 @@
     width: 340px;
     height: 340px;
     border-radius: 10px;
-    margin: 40px;
+    margin: 10px 0px 10px 0px;
     position: relative; 
+}
+.KasaThumbImage {
+    width: 340px; 
+    height: 340px;
+    border-radius: 10px;
 }
 .kasa-thumbTitle {
     position: absolute;

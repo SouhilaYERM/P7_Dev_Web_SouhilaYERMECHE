@@ -1,0 +1,9 @@
+.list {
+    margin: 15px 40px 15px 40px;
+    padding: 10px; 
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    display:flex; 
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}

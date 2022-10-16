@@ -1,6 +1,6 @@
 import React from 'react';
 import './Thumb.css'
-export const Thumb = ({title, image})=>{
+export const Thumb = ({image, title})=>{
     return (
     <div className="kasa-thumb">
         <img className="KasaThumbImage" src={image}/>
