@@ -2,17 +2,19 @@ import React from 'react';
 import './Home.css'
 import {Thumb} from '../../components/desktopComponents/thumb/Thumb'
 import {Image_haut_de_page} from '../../components/desktopComponents/image/Image.jsx';
-let data = require('../../data.json')
-{console.log(data)}
+import {Link} from 'react-router-dom'
+const data = require('../../data.json')
 export const Home = ()=>{
     return (
         <div className="home-content"> 
-            <Image_haut_de_page />
+            <Image_haut_de_page 
+            Simage = {false}/>
             <div className="list">
-                {data.map((homeData) =><Thumb
+                {data.map((homeData, index) =><Link to={"/Fiche?id="+homeData.id}><Thumb 
+                    key={index}
                     title={homeData.title}
                     image={homeData.cover}
-                />  )}
+                /></Link>)}
             </div>   
         </div>
     );

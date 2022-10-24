@@ -1,29 +1,33 @@
 import React from 'react';
 import { Tagname } from '../../components/desktopComponents/Tag/Tag-name';
 import {Dropdown} from '../../components/desktopComponents/dropdown/Dropdown'
-export const Fiche = ({title})=>{
-    return (
-    <div className="App">
-    <Tagname />
+import {Carroussel} from '../../components/desktopComponents/carroussel/Carroussel'
+const data = require('../../data.json') 
+function getHomeId(){
+    const searchParams = new URLSearchParams(window.location.search);
+    return searchParams.get("id")
+}
+export const Fiche = ()=>{
+    const home = data.find(homeData => homeData.id == getHomeId())
+    console.log(home.equipments)
+        return (
+            <div className="">
+                {home.tags.map((tag, index) =><Tagname 
+                    key ={index}
+                    contenu = {tag}
+            /> )}
+            
             <Dropdown
-                titre="Fiabilité" 
-                contenu={<p>Les annonces postées sur Kasa garantissent une fiabilité totale. 
-                Les photos sont conformes aux logements, et toutes les informations sont 
-                régulièrement vérifiées par nos équipes. </p>}
+                titre="Description" 
+                contenu={<p>{home.description}</p>}
                 large={true}
             />
             <Dropdown 
-                titre="Description"
-                contenu= {<ul>
-                <li >Climatisation</li>
-                <li >Wi-Fi</li>
-                <li >Cuisine</li>
-                <li >Espace de travail</li>
-                <li >Fer à repasser</li>
-                <li >Sèche-cheveux</li>
-                <li >Cintres</li>
-            </ul>}
+                titre="Equipement"
+                contenu= {home.equipments.map((equipment, index) => <ul><li key={index}>{equipment}</li></ul>)}
                 large= {false}
             />
-  </div>);
+            <Carroussel />
+            </div>)
+         
 }
