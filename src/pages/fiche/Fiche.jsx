@@ -9,7 +9,6 @@ function getHomeId(){
 }
 export const Fiche = ()=>{
     const home = data.find(homeData => homeData.id == getHomeId())
-    console.log(home.equipments)
         return (
             <div className="">
                 {home.tags.map((tag, index) =><Tagname 
@@ -27,7 +26,9 @@ export const Fiche = ()=>{
                 contenu= {home.equipments.map((equipment, index) => <ul><li key={index}>{equipment}</li></ul>)}
                 large= {false}
             />
-            <Carroussel />
+            <Carroussel
+                images= {home.pictures} 
+            />
             </div>)
          
 }
