@@ -10,7 +10,7 @@ export const Home = ()=>{
             <Image_haut_de_page 
             Simage = {false}/>
             <div className="list">
-                {data.map((homeData, index) =><Link to={"/Fiche?id="+homeData.id}><Thumb 
+                {data.map((homeData, index) =><Link to={"/Fiche/"+homeData.id}><Thumb 
                     key={index}
                     title={homeData.title}
                     image={homeData.cover}
@@ -18,4 +18,4 @@ export const Home = ()=>{
             </div>   
         </div>
     );
-}
+}
