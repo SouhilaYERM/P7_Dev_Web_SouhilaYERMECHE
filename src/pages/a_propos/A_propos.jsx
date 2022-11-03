@@ -1,11 +1,10 @@
 import React from 'react';
-import { Tagname } from '../../components/desktopComponents/Tag/Tag-name';
 import {Dropdown} from '../../components/desktopComponents/dropdown/Dropdown'
-
+import './Apropos.css'
 export const A_propos = ()=>{
     
     return (
-    <div className="App">
+    <div className="apropos">
             <Dropdown
                 titre="Fiabilité" 
                 contenu={<p>Les annonces postées sur Kasa garantissent une fiabilité totale. 
