@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import './Carroussel.css'
 const data = require('../../../data.json')
 
 export const Carroussel = ({images}) => { 
@@ -20,10 +21,10 @@ export const Carroussel = ({images}) => {
     } 
   }
   return (
-      <div>
-        <button onClick={toLeft}><FontAwesomeIcon icon= {faAngleLeft}/></button>
-        <img src={images[index]} />
-        <button onClick={toRight}><FontAwesomeIcon icon= {faAngleRight}/></button>
+      <div className="carroussel">
+        <button onClick={toLeft} className="left"><FontAwesomeIcon icon= {faAngleLeft}/></button>
+        <img src={images[index]} className="imageCarroussel" />
+        <button onClick={toRight} className="right"><FontAwesomeIcon icon= {faAngleRight}/></button>
       </div>
   )
 };
