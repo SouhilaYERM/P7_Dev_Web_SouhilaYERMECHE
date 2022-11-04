@@ -7,7 +7,7 @@ import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 export const Dropdown = ({titre, contenu, large})=>{
     const [isOpen, setIsOpen] = useState(true)
     return (
-        <div className="">
+        <div className="drop">
             <div className={`kasa-dropdown ${large ? 'large' : null }`}>
                 <span className="dropdown-title">{titre}</span>
                 <button className="Icon" onClick={()=> setIsOpen(!isOpen)}>

@@ -7,23 +7,22 @@
 .nav {
     display: flex; 
     justify-content: space-around;
+    text-decoration: none;
 }
 .element {
     margin : 0px 0px  10px 20px; 
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 142.6%;
-    /* or 34px */
-
     display: flex;
     align-items: flex-end;
     text-align: right;
-
-    color: #FF6060;
 }
 .logo {
-    width: 170px; 
+    width: 150px; 
+}
+.lien {
+    text-decoration: none;
+    color: #FF6060;  
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
 }

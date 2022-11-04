@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom';
 export const KasaHeader = ()=>{
     return (
     <header className="kasa-header">
-      <Logo className=""/>
+      <Logo className="logo"/>
       <nav className="nav">
-        <div className="element"><Link to="/">Accueil</Link></div>
-        <div className="element"><Link to="/A_propos">A propos</Link></div>
+        <div className="element"><Link to="/" className="lien">Accueil</Link></div>
+        <div className="element"><Link to="/A_propos" className="lien">A propos</Link></div>
       </nav>
     </header>);
 }

@@ -1,0 +1,11 @@
+.notFound {
+    background-image: url('./404.svg');
+    background-position: center;
+    height: 210px; 
+    width: 582px; 
+}
+.error {
+    margin:auto;
+    color: white;
+    font-family: 'Montserrat';
+}

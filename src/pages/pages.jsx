@@ -6,9 +6,9 @@ import { Outlet } from 'react-router-dom';
 export const Pages = ()=>{
     return (
       <>
-      <KasaHeader/>
+      <KasaHeader />
       <Outlet /> 
-      <KasaFooter/>
+      <KasaFooter />
       </>
     );
 }

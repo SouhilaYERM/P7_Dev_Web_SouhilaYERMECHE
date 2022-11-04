@@ -4,7 +4,7 @@ import {Home} from './pages/home/Home'
 import {Fiche} from './pages/fiche/Fiche'
 import {A_propos} from './pages/a_propos/A_propos'
 import {Pages} from './pages/pages'
-import {NotFound} from './components/NotFound'
+import {NotFound} from './pages/notFound/NotFound'
 import {
   BrowserRouter as Router,
   Routes,

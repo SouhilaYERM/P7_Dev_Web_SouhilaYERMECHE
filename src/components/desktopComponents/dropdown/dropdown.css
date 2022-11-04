@@ -1,3 +1,6 @@
+.drop{
+    margin-bottom: 20px;
+}
 .kasa-dropdown {
     margin : 10px 10px 0px 40px;
     padding : 0px 10px 5px 10px;
@@ -12,14 +15,13 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 142.6%;
     display: flex;
-    align-items: center;
-
     color: #FFFFFF;
 }
 .Icon {
     padding-top: 5px;
+    background-color: transparent;
+    border-width: 0px;
 }
 .dropdownfont {
     color: #FFFFFF;
@@ -29,18 +31,14 @@
     border-radius: 0px 0px 10px 10px ;
     width: 400px;
     margin: 0px 10px 0px 40px;
-    padding: 10px;
-    list-style-type: none;
+    padding: 10px 10px 20px 10px;
+    color:#FF6060;
 }
 .dropListElement {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 142.6%;
-    /* or 26px */
-
-    
+    font-size: 18px;  
 }
 .large {
     width: 500px!important;

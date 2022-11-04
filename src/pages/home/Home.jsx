@@ -7,15 +7,15 @@ const data = require('../../data.json')
 export const Home = ()=>{
     return (
         <div className="home-content"> 
-            <Image_haut_de_page 
-            Simage = {false}/>
+            <imageHome
+            Simage = {false}/> 
             <div className="list">
-                {data.map((homeData, index) =><Link to={"/Fiche/"+homeData.id}><Thumb 
-                    key={index}
-                    title={homeData.title}
-                    image={homeData.cover}
-                /></Link>)}
-            </div>   
+             {data.map((homeData, index) =><Link to={"/Fiche/"+homeData.id}><Thumb 
+                 key={index}
+                 title={homeData.title}
+                 image={homeData.cover}
+             /></Link>)}
+        </div>
         </div>
     );
-}
+}
