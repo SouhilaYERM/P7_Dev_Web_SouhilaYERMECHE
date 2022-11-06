@@ -4,3 +4,8 @@
     margin: 0; 
     font-size: 20pt;
 }
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 16pt;
+    }
+}

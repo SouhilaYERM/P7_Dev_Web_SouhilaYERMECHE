@@ -29,18 +29,38 @@
 .openDrop {
     background: #F7F7F7;
     border-radius: 0px 0px 10px 10px ;
-    width: 400px;
+    width: 380px;
     margin: 0;
     padding: 10px 10px 20px 10px;
     color:#FF6060;
 }
-.dropListElement {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;  
-}
+
 .large {
-    width: 500px!important;
+    width: 420px!important;
     color: #FF6060;
+}
+@media screen and (max-width: 630px) {
+    .kasa-dropdown {
+        width: 250px;
+    }
+    .large {
+        width: 280px!important;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .kasa-dropdown {
+        width: 500px; 
+    }
+    .large {
+        width: 620px!important; 
+    }
+    .dropdown-title{
+        font-size: 25pt;
+    }
+    .openDrop {
+        font-size: 20pt;
+    }
+    .Icon {
+        font-size: 25pt;
+    }
 }

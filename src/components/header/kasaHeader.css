@@ -24,4 +24,26 @@
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 10px;
+    
+}
+@media screen and (max-width: 375px) {
+    .kasa-header {
+        margin: 5px!important;
+        justify-content: space-between;
+        width: 300px;
+    }
+    .lien {
+        font-size: 10pt;
+        width: 55px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .kasa-header {
+        margin: 10px;
+        justify-content: space-between;
+    }
+    .lien {
+        font-size: 12pt;
+        width: 75px;
+    }
 }

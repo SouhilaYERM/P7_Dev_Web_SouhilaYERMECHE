@@ -6,7 +6,7 @@ import { faStar, } from '@fortawesome/free-solid-svg-icons'
 export const Rating = ({rating})=>{
 
     return (
-    <div className="">
+    <div className="rating">
         <div>
             <FontAwesomeIcon icon={faStar} className={rating>=1?"full":"empty"}/>
             <FontAwesomeIcon icon={faStar} className={rating>=2?"full":"empty"}/>

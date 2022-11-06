@@ -1,10 +1,13 @@
 import React from 'react';
 import {Dropdown} from '../../components/desktopComponents/dropdown/Dropdown'
 import './Apropos.css'
+import {ImageHome} from '../../components/desktopComponents/image/Image.jsx';
 export const A_propos = ()=>{
     
     return (
     <div className="apropos">
+         <ImageHome
+            Simage = {true}/> 
             <Dropdown
                 titre="Fiabilité" 
                 contenu={<p>Les annonces postées sur Kasa garantissent une fiabilité totale. 

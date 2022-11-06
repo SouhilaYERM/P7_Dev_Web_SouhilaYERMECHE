@@ -4,3 +4,8 @@
     font-size: 12pt;
     margin: 0px;
 }
+@media screen and (max-width: 425px) {
+    .location {
+        font-size: 10pt; 
+    }
+}

@@ -7,3 +7,12 @@
     margin-left: 5%;
     margin-top: 30%;
 }
+@media screen and (max-width: 686px) {
+    .empty{
+        margin-top : 15px!important;
+        margin-left: 0px;
+    }
+    .full {
+        margin-left: 0px;
+    }
+}
