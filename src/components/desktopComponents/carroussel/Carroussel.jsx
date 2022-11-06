@@ -22,9 +22,9 @@ export const Carroussel = ({images}) => {
   }
   return (
       <div className="carroussel">
-        <button onClick={toLeft} className="left"><FontAwesomeIcon icon= {faAngleLeft}/></button>
+        <button onClick={toLeft} className="button left"><FontAwesomeIcon icon= {faAngleLeft}/></button>
         <img src={images[index]} className="imageCarroussel" />
-        <button onClick={toRight} className="right"><FontAwesomeIcon icon= {faAngleRight}/></button>
+        <button onClick={toRight} className="button right"><FontAwesomeIcon icon= {faAngleRight}/></button>
       </div>
   )
 };

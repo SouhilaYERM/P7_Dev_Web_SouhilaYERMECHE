@@ -1,8 +1,7 @@
 .kasa-header {
     display: flex; 
     justify-content: space-between;
-    padding: 20px 30px 20px 30px;
-    margin : 10px;
+    margin: 2% 5% 2% 5%;
 }
 .nav {
     display: flex; 

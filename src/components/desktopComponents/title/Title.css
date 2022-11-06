@@ -1,6 +1,6 @@
-.location {
+.title {
     font-family: "Montserrat";
     color: #FF6060;
-    font-size: 12pt;
-    margin: 0px;
+    margin: 0; 
+    font-size: 20pt;
 }

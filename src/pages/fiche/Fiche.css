@@ -1,0 +1,27 @@
+
+.ficheContent {
+    margin:0% 5% 5% 5%;
+}
+/******************************/
+.informations {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/******************************/
+
+.tag {
+    margin-top: 15px;
+    display: flex;
+}
+/******************************/
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}

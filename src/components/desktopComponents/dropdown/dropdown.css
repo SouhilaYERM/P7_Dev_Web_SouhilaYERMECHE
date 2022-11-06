@@ -2,7 +2,7 @@
     margin-bottom: 20px;
 }
 .kasa-dropdown {
-    margin : 10px 10px 0px 40px;
+    margin : 0;
     padding : 0px 10px 5px 10px;
     background-color: #FF6060;
     border-radius: 5px;
@@ -30,7 +30,7 @@
     background: #F7F7F7;
     border-radius: 0px 0px 10px 10px ;
     width: 400px;
-    margin: 0px 10px 0px 40px;
+    margin: 0;
     padding: 10px 10px 20px 10px;
     color:#FF6060;
 }

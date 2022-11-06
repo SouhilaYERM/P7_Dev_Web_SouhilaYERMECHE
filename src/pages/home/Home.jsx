@@ -15,7 +15,7 @@ export const Home = ()=>{
                  title={homeData.title}
                  image={homeData.cover}
              /></Link>)}
-        </div>
+            </div>
         </div>
     );
 }

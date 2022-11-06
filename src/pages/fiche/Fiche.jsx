@@ -6,6 +6,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import {Host} from '../../components/desktopComponents/host/Host'
 import {Location} from '../../components/desktopComponents/location/Location'
 import { Rating } from '../../components/desktopComponents/rating/Rating';
+import {Title} from '../../components/desktopComponents/title/Title'
 import './Fiche.css'
 const data = require('../../data.json') 
 
@@ -18,22 +19,40 @@ export const Fiche = ()=>{
         )
     }else{
         return (
-            <div className="">
-                        <Carroussel
-                            images= {home.pictures} 
-                        />
-                            {home.tags.map((tag, index) =><Tagname 
-                                key ={index}
-                                contenu = {tag}
-                        /> )}
-                        <Location
-                            location={home.location}
-                        />
-                        <Host
-                            name={home.host.name}
-                            image={home.host.picture}
-                        />
-                        <Rating />
+            <div className="fiche">
+                <Carroussel
+                    images= {home.pictures} 
+                />
+                <div className="ficheContent">
+                    <div className="informations">
+                        <div className="homeInfo">
+                            <Title 
+                            title= {home.title}
+                            />
+                            <Location
+                                location={home.location}
+                            /> 
+                            <div className='tag'>   
+                            {home.tags.map((tag, index) =>
+                                <Tagname 
+                                    key ={index}
+                                    contenu = {tag}
+                                /> 
+                            )}
+                            </div>
+                        </div>
+                        
+                        <div className="hostRating">
+                            <Host
+                                name={home.host.name}
+                                image={home.host.picture}
+                            />
+                            <Rating 
+                                rating={home.rating}
+                            />
+                        </div> 
+                    </div>
+                    <div className="dropdown">
                         <Dropdown
                             titre="Description" 
                             contenu={<p>{home.description}</p>}
@@ -42,9 +61,10 @@ export const Fiche = ()=>{
                         <Dropdown 
                             titre="Equipement"
                             contenu= {home.equipments.map((equipment, index) => <div key={index}>{equipment}</div>)}
-                            large= {false}
+                            large= {true}
                         />
-                        
+                    </div>
+                </div>
             </div>
         )
         

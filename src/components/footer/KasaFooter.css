@@ -5,6 +5,7 @@
     margin-top: 50px;
     text-align: center;
     width: 100%;
+    flex:1;
 }
 .element-footer {
     font-family: 'Montserrat';
