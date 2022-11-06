@@ -15,10 +15,7 @@
     
 }
 .imageCarroussel:hover {
-    cursor : zoom-in;
-}
-.imageCarroussel:active {
-    object-fit: fill;
+    cursor : pointer;
 }
 .right {  
     right: 5%;
