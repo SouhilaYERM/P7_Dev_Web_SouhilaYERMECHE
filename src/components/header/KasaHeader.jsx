@@ -9,7 +9,7 @@ export const KasaHeader = ()=>{
       <Logo className="logo"/>
       <nav className="nav">
         <div className="element"><Link to="/" className="lien">Accueil</Link></div>
-        <div className="element"><Link to="/A_propos" className="lien">A propos</Link></div>
+        <div className="element"><Link to="/Apropos" className="lien">A propos</Link></div>
       </nav>
     </header>);
 }

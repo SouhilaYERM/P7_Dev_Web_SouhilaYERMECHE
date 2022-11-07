@@ -10,7 +10,9 @@
     display: flex;
 }
 .Simage {
-    background-image: url('./Simage.svg')
+    background-image: url('./Simage.svg'); 
+    width : 90%;
+    margin-bottom: 60px;
 }
 .text {
     margin:auto;
