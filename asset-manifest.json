@@ -1,11 +1,11 @@
 {
   "main.css": "/kasa/static/css/main.1b652875.chunk.css",
-  "main.js": "/kasa/static/js/main.b48b5bcd.chunk.js",
-  "main.js.map": "/kasa/static/js/main.b48b5bcd.chunk.js.map",
+  "main.js": "/kasa/static/js/main.0520f168.chunk.js",
+  "main.js.map": "/kasa/static/js/main.0520f168.chunk.js.map",
   "static/js/1.2b447e1b.chunk.js": "/kasa/static/js/1.2b447e1b.chunk.js",
   "static/js/1.2b447e1b.chunk.js.map": "/kasa/static/js/1.2b447e1b.chunk.js.map",
-  "static/js/2.67c02b91.chunk.js": "/kasa/static/js/2.67c02b91.chunk.js",
-  "static/js/2.67c02b91.chunk.js.map": "/kasa/static/js/2.67c02b91.chunk.js.map",
+  "static/js/2.81fe2f60.chunk.js": "/kasa/static/js/2.81fe2f60.chunk.js",
+  "static/js/2.81fe2f60.chunk.js.map": "/kasa/static/js/2.81fe2f60.chunk.js.map",
   "runtime~main.js": "/kasa/static/js/runtime~main.5b8e21f9.js",
   "runtime~main.js.map": "/kasa/static/js/runtime~main.5b8e21f9.js.map",
   "static/media/Image.css": "/kasa/static/media/Simage.a7e59686.svg",
@@ -14,6 +14,6 @@
   "static/media/notfound.7fcfd6b3.svg": "/kasa/static/media/notfound.7fcfd6b3.svg",
   "static/css/main.1b652875.chunk.css.map": "/kasa/static/css/main.1b652875.chunk.css.map",
   "index.html": "/kasa/index.html",
-  "precache-manifest.df8270f813ee9091e42dcd9fb4175c91.js": "/kasa/precache-manifest.df8270f813ee9091e42dcd9fb4175c91.js",
+  "precache-manifest.8ce2fccac1186708a85e8a181c8fd3ef.js": "/kasa/precache-manifest.8ce2fccac1186708a85e8a181c8fd3ef.js",
   "service-worker.js": "/kasa/service-worker.js"
 }

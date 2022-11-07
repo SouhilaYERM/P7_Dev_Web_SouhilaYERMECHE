@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b48b5bcd47e6cf20bac8",
+    "revision": "0520f1683033681e0c0b",
     "url": "/kasa/static/css/main.1b652875.chunk.css"
   },
   {
-    "revision": "b48b5bcd47e6cf20bac8",
-    "url": "/kasa/static/js/main.b48b5bcd.chunk.js"
+    "revision": "0520f1683033681e0c0b",
+    "url": "/kasa/static/js/main.0520f168.chunk.js"
   },
   {
     "revision": "2b447e1be3e7dd9deafc",
     "url": "/kasa/static/js/1.2b447e1b.chunk.js"
   },
   {
-    "revision": "67c02b910aca3547887e",
-    "url": "/kasa/static/js/2.67c02b91.chunk.js"
+    "revision": "81fe2f60dd3bdcd2b52d",
+    "url": "/kasa/static/js/2.81fe2f60.chunk.js"
   },
   {
     "revision": "5b8e21f919604951eaf9",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/kasa/static/media/notfound.7fcfd6b3.svg"
   },
   {
-    "revision": "c795ffea40905233bf15565680fafac3",
+    "revision": "dae26ea63d788cd186971449b77a584d",
     "url": "/kasa/index.html"
   }
 ];
