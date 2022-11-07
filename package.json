@@ -2,6 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://SouhilaYERM.github.io/kasa",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
@@ -20,7 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build", 
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-router-dom": "^6.4.1"
   }
 }
