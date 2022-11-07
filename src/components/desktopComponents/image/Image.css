@@ -3,6 +3,7 @@
     height: 220px;
     margin: 10px 40px 10px 40px;
     background-image: url('./IMG.svg');
+    background-size: cover;
     background-position: center;
     border-radius: 10px;
     text-align: center;
@@ -15,4 +16,9 @@
     margin:auto;
     color: white;
     font-family: 'Montserrat';
+}
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 16pt;
+    }
 }

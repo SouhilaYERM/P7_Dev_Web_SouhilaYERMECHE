@@ -1,12 +1,13 @@
 .drop{
     margin-bottom: 20px;
+    width: 100%;
 }
 .kasa-dropdown {
     margin : 0;
     padding : 0px 10px 5px 10px;
     background-color: #FF6060;
     border-radius: 5px;
-    width: 400px;
+   /* width: 400px; */
     display: flex;
     justify-content: space-between;
 }
@@ -29,38 +30,22 @@
 .openDrop {
     background: #F7F7F7;
     border-radius: 0px 0px 10px 10px ;
-    width: 380px;
+    width: 250px;
     margin: 0;
     padding: 10px 10px 20px 10px;
     color:#FF6060;
 }
 
 .large {
-    width: 420px!important;
+    width: 280px;
     color: #FF6060;
 }
-@media screen and (max-width: 630px) {
-    .kasa-dropdown {
-        width: 250px;
+@media screen and (min-width: 688px) {
+    .drop {
+        width: 45%;
     }
     .large {
-        width: 280px!important;
+        width: 100%!important;
+        margin: 0px!important;
     }
-}
-@media screen and (min-width: 1440px) {
-    .kasa-dropdown {
-        width: 500px; 
-    }
-    .large {
-        width: 620px!important; 
-    }
-    .dropdown-title{
-        font-size: 25pt;
-    }
-    .openDrop {
-        font-size: 20pt;
-    }
-    .Icon {
-        font-size: 25pt;
-    }
-}
+ }

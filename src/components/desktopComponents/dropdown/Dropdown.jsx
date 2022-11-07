@@ -3,7 +3,6 @@ import './Dropdown.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
-
 export const Dropdown = ({titre, contenu, large})=>{
     const [isOpen, setIsOpen] = useState(true)
     return (

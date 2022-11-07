@@ -3,6 +3,7 @@
     color: #ff6060;
     display: flex;
     width: 120px;
+    margin-top: 20px;
 }
 .hostName { 
     margin: 0px 10px 0px 0px;
@@ -14,4 +15,9 @@
     height: 40px;
     border-radius: 25px;
     margin-right: 0px;
+}
+@media screen and (min-width: 688px) {
+    .host {
+        margin-top: 0;
+    }
 }

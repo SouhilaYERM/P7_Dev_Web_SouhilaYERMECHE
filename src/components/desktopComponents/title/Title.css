@@ -4,8 +4,27 @@
     margin: 0; 
     font-size: 20pt;
 }
+
 @media screen and (max-width: 425px) {
     .title {
         font-size: 16pt;
+    }
+}
+@media screen and (min-width: 590px) {
+    .title {
+        Width: 499px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (min-width: 730px) {
+    .title {
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 920px) {
+    .title {
+        font-size: 14.7pt;
     }
 }
