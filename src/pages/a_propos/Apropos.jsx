@@ -2,7 +2,7 @@ import React from 'react';
 import {Dropdown} from '../../components/desktopComponents/dropdown/Dropdown'
 import './Apropos.css'
 import {ImageHome} from '../../components/desktopComponents/image/Image.jsx';
-export const A_propos = ()=>{
+export const Apropos = ()=>{
     
     return (
     <div className="apropos">

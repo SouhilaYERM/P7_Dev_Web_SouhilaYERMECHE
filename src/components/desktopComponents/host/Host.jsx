@@ -4,6 +4,6 @@ export const Host = ({name, image})=>{
     return (
     <div className="host">
         <h2 className='hostName'>{name}</h2>
-        <img className="hostPhoto" src={image}/>
+        <img className="hostPhoto" src={image} alt=""/>
     </div>);
 }
