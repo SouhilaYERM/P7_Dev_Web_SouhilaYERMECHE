@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kasa/precache-manifest.8ce2fccac1186708a85e8a181c8fd3ef.js"
+  "/P7_Dev_Web_SouhilaYERMECHE/precache-manifest.07d45ab370cf67da50a106aec171f0c0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kasa/index.html", {
+workbox.routing.registerNavigationRoute("/P7_Dev_Web_SouhilaYERMECHE/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
