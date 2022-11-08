@@ -6,14 +6,14 @@ import {Apropos} from './pages/a_propos/Apropos'
 import {Pages} from './pages/pages'
 import {NotFound} from './pages/notFound/NotFound'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/">
+    <HashRouter basename="/">
       <Routes>
         <Route element={<Pages/>}>
           <Route path="/" element= {<Home title=""/>}></Route>
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<NotFound/>}></Route>
         </Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
