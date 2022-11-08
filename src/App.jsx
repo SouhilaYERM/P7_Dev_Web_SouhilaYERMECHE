@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <Router basename="https://SouhilaYERM.github.io/P7_Dev_Web_SouhilaYERMECHE/">
+    <Router basename="/">
       <Routes>
         <Route element={<Pages/>}>
           <Route path="/" element= {<Home title=""/>}></Route>
