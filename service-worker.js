@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/P7_Dev_Web_SouhilaYERMECHE/precache-manifest.22621206afb1cc288890e406e6edaf6c.js"
+  "/P7_Dev_Web_SouhilaYERMECHE/precache-manifest.58841b486f7b55e2407873d369c7bfe8.js"
 );
 
 workbox.clientsClaim();
