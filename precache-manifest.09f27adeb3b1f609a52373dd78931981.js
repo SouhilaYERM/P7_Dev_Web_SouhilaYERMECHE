@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b24d0b3b2133f53b0c2a",
-    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/css/main.70c4c4ab.chunk.css"
+    "revision": "c4d6063096fdc0ab6268",
+    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/css/main.7d6d3041.chunk.css"
   },
   {
-    "revision": "b24d0b3b2133f53b0c2a",
-    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.b24d0b3b.chunk.js"
+    "revision": "c4d6063096fdc0ab6268",
+    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.c4d60630.chunk.js"
   },
   {
     "revision": "2b447e1be3e7dd9deafc",
     "url": "/P7_Dev_Web_SouhilaYERMECHE/static/js/1.2b447e1b.chunk.js"
   },
   {
-    "revision": "5a13448dc86583c7a080",
-    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.5a13448d.chunk.js"
+    "revision": "fa8b9c88d4ac4563b87c",
+    "url": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.fa8b9c88.chunk.js"
   },
   {
     "revision": "bad08793d997e58503b4",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/P7_Dev_Web_SouhilaYERMECHE/static/media/notfound.7fcfd6b3.svg"
   },
   {
-    "revision": "cc6f5671fc908f4e80f0dd2296af94c9",
+    "revision": "496e28ea471ca1d5fd3a1ecfc5585b34",
     "url": "/P7_Dev_Web_SouhilaYERMECHE/index.html"
   }
 ];
