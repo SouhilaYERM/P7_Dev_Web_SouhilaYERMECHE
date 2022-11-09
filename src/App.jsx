@@ -16,9 +16,9 @@ function App() {
     <HashRouter basename="/">
       <Routes>
         <Route element={<Pages/>}>
-          <Route path="/" element= {<Home title=""/>}></Route>
-          <Route path="/Fiche/:id" element= {<Fiche title=""/>}></Route>
-          <Route path="/Apropos" element= {<Apropos title=""/>}></Route>
+          <Route path="/" element= {<Home />}></Route>
+          <Route path="/Fiche/:id" element= {<Fiche />}></Route>
+          <Route path="/Apropos" element= {<Apropos />}></Route>
           <Route path="*" element={<NotFound/>}></Route>
         </Route>
       </Routes>

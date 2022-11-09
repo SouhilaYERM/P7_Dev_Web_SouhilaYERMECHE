@@ -6,7 +6,7 @@ import './pages.css'
 
 export const Pages = ()=>{
     return (
-      <div className='page'>
+      <div className="page">
         <div className="main">
           <KasaHeader />
           <Outlet /> 

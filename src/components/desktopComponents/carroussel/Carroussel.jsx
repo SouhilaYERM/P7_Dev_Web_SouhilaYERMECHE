@@ -19,11 +19,19 @@ export const Carroussel = ({images}) => {
       setIndex(index)
     } 
   }
-  return (
+  if(images.length=== 1) {
+    return (
+      <div className="carroussel">
+        <img src={images[index]} className="imageCarroussel" alt="" />
+      </div>
+    )
+  } else {
+    return (
       <div className="carroussel">
         <button onClick={toLeft} className="button left"><FontAwesomeIcon icon= {faAngleLeft}/></button>
         <img src={images[index]} className="imageCarroussel" alt="" />
         <button onClick={toRight} className="button right"><FontAwesomeIcon icon= {faAngleRight}/></button>
       </div>
-  )
+    )
+  }
 };

@@ -1,11 +1,11 @@
 {
   "main.css": "/P7_Dev_Web_SouhilaYERMECHE/static/css/main.70c4c4ab.chunk.css",
-  "main.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.47ad53c1.chunk.js",
-  "main.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.47ad53c1.chunk.js.map",
+  "main.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.b24d0b3b.chunk.js",
+  "main.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/main.b24d0b3b.chunk.js.map",
   "static/js/1.2b447e1b.chunk.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/1.2b447e1b.chunk.js",
   "static/js/1.2b447e1b.chunk.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/1.2b447e1b.chunk.js.map",
-  "static/js/2.81fe2f60.chunk.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.81fe2f60.chunk.js",
-  "static/js/2.81fe2f60.chunk.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.81fe2f60.chunk.js.map",
+  "static/js/2.5a13448d.chunk.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.5a13448d.chunk.js",
+  "static/js/2.5a13448d.chunk.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/2.5a13448d.chunk.js.map",
   "runtime~main.js": "/P7_Dev_Web_SouhilaYERMECHE/static/js/runtime~main.bad08793.js",
   "runtime~main.js.map": "/P7_Dev_Web_SouhilaYERMECHE/static/js/runtime~main.bad08793.js.map",
   "static/media/Image.css": "/P7_Dev_Web_SouhilaYERMECHE/static/media/Simage.a7e59686.svg",
@@ -14,6 +14,6 @@
   "static/media/notfound.7fcfd6b3.svg": "/P7_Dev_Web_SouhilaYERMECHE/static/media/notfound.7fcfd6b3.svg",
   "static/css/main.70c4c4ab.chunk.css.map": "/P7_Dev_Web_SouhilaYERMECHE/static/css/main.70c4c4ab.chunk.css.map",
   "index.html": "/P7_Dev_Web_SouhilaYERMECHE/index.html",
-  "precache-manifest.58841b486f7b55e2407873d369c7bfe8.js": "/P7_Dev_Web_SouhilaYERMECHE/precache-manifest.58841b486f7b55e2407873d369c7bfe8.js",
+  "precache-manifest.e448adabc211ce24dc27b89472b9913d.js": "/P7_Dev_Web_SouhilaYERMECHE/precache-manifest.e448adabc211ce24dc27b89472b9913d.js",
   "service-worker.js": "/P7_Dev_Web_SouhilaYERMECHE/service-worker.js"
 }
